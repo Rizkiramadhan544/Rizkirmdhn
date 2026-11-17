@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rizki Ramadhan | One Piece</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(0,10,35,0.45),
+                        rgba(0,10,35,0.65)),
+        url("background.png");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+/* PANEL UTAMA */
+.container {
+    width: 100%;
+    max-width: 470px;
+    padding: 35px 28px;
+
+    background: rgba(5, 20, 48, 0.82);
+    backdrop-filter: blur(12px);
+
+    border: 2px solid rgba(255,200,100,0.8);
+    border-radius: 22px;
+
+    box-shadow:
+        0 0 30px rgba(0,0,0,0.6),
+        0 0 20px rgba(255,190,70,0.2);
+
+    text-align: center;
+}
+
+/* LOGO */
+.logo {
+    font-size: 65px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 0 3px 10px black;
+}
+
+.nama {
+    color: #ffc857;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.garis {
+    width: 90px;
+    height: 4px;
+    background: #ffc857;
+    margin: 18px auto;
+    border-radius: 10px;
+}
+
+.deskripsi {
+    color: #e4edff;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+/* TOMBOL */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 17px 18px;
+    margin: 15px 0;
+
+    background: linear-gradient(
+        120deg,
+        #ffe2a3,
+        #d99b42
+    );
+
+    color: #38200b;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+
+    border: 2px solid #fff0c5;
+    border-radius: 12px;
+
+    box-shadow: 0 5px 12px rgba(0,0,0,0.3);
+
+    transition: 0.3s;
+}
+
+.menu:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(120deg,#fff0bd,#ffc857);
+    box-shadow: 0 0 20px #ffc857;
+}
+
+.menu span:last-child {
+    font-size: 23px;
+}
+
+/* FOOTER */
+footer {
+    color: #d6e4ff;
+    font-size: 12px;
+    margin-top: 28px;
+    line-height: 1.8;
+}
+
+footer strong {
+    color: #ffc857;
+}
+
+/* HP */
+@media(max-width:480px) {
+    .container {
+        padding: 28px 18px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .nama {
+        font-size: 21px;
+    }
+
+    .menu {
+        font-size: 13px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">🏴‍☠️</div>
+
+    <h1>HALAMAN UTAMA</h1>
+
+    <div class="nama">RIZKI RAMADHAN</div>
+
+    <div class="garis"></div>
+
+    <div class="deskripsi">
+        SELAMAT DATANG DI WEBSITE SAYA!
+        <br>
+        Pilih perjalanan yang ingin kamu kunjungi.
+    </div>
+
+    <a class="menu"
+       href="https://canva.link/z1jp1bff69soina"
+       target="_blank">
+       <span>📜 SURAT LAMARAN KERJA</span>
+       <span>➜</span>
+    </a>
+
+    <a class="menu"
+       href="https://rizkiramadhan544.github.io/Rizki/"
+       target="_blank">
+       <span>💻 CV WEBSITE</span>
+       <span>➜</span>
+    </a>
+
+    <a class="menu"
+       href="https://canva.link/rwl356em2sas3ve"
+       target="_blank">
+       <span>📊 CV PPT</span>
+       <span>➜</span>
+    </a>
+
+    <footer>
+        © 2026 <strong>Rizki Ramadhan</strong>
+        <br>
+        DREAM BIG, SET SAIL!
+        <br>
+        ☠ STRAW HAT PIRATES ☠
+    </footer>
+
+</div>
+
+</body>
+</html>
